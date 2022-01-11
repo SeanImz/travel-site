@@ -16,10 +16,11 @@
   }
 }
 
-@define-mixin clearfix {
-  &::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-}
+/* Not needed without floats:
+ @define-mixin clearfix {
+   &::after {
+     content: "";
+     clear: both;
+     display: table;
+    }
+} */
